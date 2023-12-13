@@ -1,0 +1,209 @@
+body{
+    margin: 0px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+.badges-header{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: 120px;
+   
+}
+
+.badges-header p{
+    font-size: 10px;
+    display: flex;  
+    margin-left: 20px;  
+}
+.badges-header img{
+    width: 20px;
+    padding: 5px;    
+}
+
+.nav-header{
+    background-color:   rgb(247, 45, 79);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+    
+}
+.nav-header img{
+    width: 33px;
+}
+.nav-header a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+    position: relative;
+    top: -13.4px;
+}
+.sub-nav-header{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 9px;
+    position: sticky;
+    top: 45px;
+    background-color: white;;
+    z-index: 1;
+}
+.sub-nav-header a{
+    text-decoration: none;
+   padding: 1x;
+   gap: 10px;
+    margin-left: 40px;
+
+}
+
+.banner{
+    display: flex;
+    background-image: url(/fpl/fpl.png);
+    height: 140px;
+}
+.banner img{
+    width: 70px;
+    height: 80px;
+    position: relative;
+    top: 7px;
+    left: 100px;
+}
+
+h1{
+    color: rgb(247, 45, 79);
+    position: relative;
+    top: 7px;
+    left: 100px;
+
+}
+
+.navi{
+    position: relative;
+    top: -55.5px;
+    left: 100px;
+    z-index: 1  ;
+}
+.navi a{
+    text-decoration: none;
+    padding: 2px;
+    color: rgb(247, 45, 79);
+    margin-left: 4px;
+    background-color: rgb(99, 2, 18);
+    border-radius: 4px;
+}
+.navi a:nth-of-type(1){
+    background-color: white;
+}
+a:hover{
+    cursor: pointer;
+    background-color: black;
+    border: 1px dashed rgb(126, 247, 126);
+    font-weight: bolder;
+}
+.rainbow img{
+    width: 50%;
+    position: relative;
+    left: 250px;
+    top: -45px;
+}
+.logged p{
+    font-size: 10px;
+    position: relative;
+    top: -20px;
+    left: 102px;
+}
+.gameweek h4{
+    position: relative;
+    top: -30px;
+    left: 102px;
+}
+table span{
+    border: 1px solid black;
+    background-color: rgb(247, 45, 79);
+    border-radius: 4px;
+    padding: 3px;
+    padding-bottom: 3px;
+}
+table th{
+    padding-left: 200px;
+}
+
+table td{
+    padding-left: 200px;
+}
+table{
+    position: relative;
+    right: 90px;
+}
+.under-table{
+    display: flex
+    
+}
+.under-table{
+    background-color: rgb(247, 45, 79);
+    gap: 400px;
+    width: 80%;
+    position: relative;
+    left: 101px;
+    height: 50px
+}
+.under-table p:nth-of-type(2){
+    background-color:  transparent;
+    border: 2px solid black;
+    font-size: bold;
+    position: relative;
+    left: 80px
+    
+}
+.sections .section1 p{
+    position: relative;
+    left: 100px; 
+    top: -80px;
+}
+.sections .section1 img {
+    width: 52%;
+    height: 100px;
+    margin-left: 99px
+
+}
+.sections .section1 img:nth-of-type(2) {
+    width: 52%;
+    height: 100px;
+    margin-left: 99px;
+    position: relative;
+    top: -80px;
+
+
+}
+.sections .section1 h3{
+  position: relative;
+  left: 100px;
+  top: -115px;
+  color: white; 
+  
+  margin-left: 20px; 
+}
+.sections .section1 button{
+    position: relative;
+    left: 100px;
+     top: -115px; 
+     width: 13%;
+     padding: 5px;
+     margin-left: 20px;
+     background-color: transparent;
+     color: white;
+}
+.sections .section1 li{
+    display:inline;
+    font-size: 8.5px;
+    font-weight: bold;
+    position: relative;
+    right: 40px;
+    top: -69px;
+    background-color:rgb(247, 45, 79) ;
+    
+
+}
