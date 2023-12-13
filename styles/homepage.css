@@ -245,7 +245,7 @@ a:hover{
 .footer-banner a{
     text-decoration: none;
 }
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 1024px){
     .badges-header{
         display: flex;
         gap: 15px;
@@ -320,7 +320,7 @@ a:hover{
     }
 }
 
-@media screen and (min-width: 430px){
+@media screen and (max-width: 430px){
     .badges-header{
         display: flex;
         gap: 2px;
