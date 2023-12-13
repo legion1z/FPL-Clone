@@ -61,7 +61,7 @@ body{
 
 .banner{
     display: flex;
-    background-image: url(/fpl/fpl.png);
+    background-image: url(/fpl.png);
     height: 140px;
 }
 .banner img{
