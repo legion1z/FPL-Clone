@@ -83,7 +83,7 @@ h1{
     position: relative;
     top: -55.5px;
     left: 100px;
-    z-index: 1  ;
+    
 }
 .navi a{
     text-decoration: none;
@@ -218,12 +218,16 @@ a:hover{
     background-color: rgb(115, 251, 115);
 }
 .footer-banner{
-    display: flex;
-    gap: 20px;
-    background: linear-gradient(to right, rgb(247, 45, 79),  rgb(115, 251, 115), rgb(247, 45, 79), rgb(115, 251, 115));
-    width: 80%;
-    position: relative;
-    left: 80px;
+    .footer-banner{
+        display: flex;
+        gap: 20px;
+        background: linear-gradient(to right, rgb(247, 45, 79),  rgb(115, 251, 115), rgb(247, 45, 79), rgb(115, 251, 115));
+        width: 80%;
+        position: relative;
+        left: 80px;
+    
+    }
+    
 
 }
 .latest{
@@ -235,6 +239,80 @@ a:hover{
 }
 .footer-banner a{
     text-decoration: none;
+}
+@media screen and (min-width: 920px){
+    .badges-header{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        margin-left: 200px;
+       
+    }
+    .banner img{
+        width: 70px;
+        height: 80px;
+        position: relative;
+        top: 7px;
+        left: 200px;
+    }
+    
+    h1{
+        color: rgb(247, 45, 79);
+        position: relative;
+        top: 7px;
+        left: 200px;
+    
+    }
+    .navi{
+        position: relative;
+        top: -55.5px;
+        left: 200px;
+        
+    }
+    
+    .sign-up{
+        position: relative;
+        left: 200px;
+    }
+    .buttons button{
+        width: 13%;
+        height: 26px;
+        position: relative;
+        left: 270px;
+    }
+    .or{
+        padding: 0px 200px;
+    }
+    .or span{
+        position: relative;
+        left: 350px;
+        bottom: 20px;
+        
+        background-color: white;;
+    }
+    .fpl-banner img{
+        width: 80%;
+        height: 140px;;
+        position: relative;
+        left: 120px;   
+    }
+    .squad{
+        display: flex;
+        gap: 40px;
+        position: relative;
+        left: 180px;
+    }
+    .latest{
+        margin-left: 170px;
+    }
+    .footer-banner{
+        display: flex;
+        gap: 20px;
+        background: linear-gradient(to right, rgb(247, 45, 79),  rgb(115, 251, 115), rgb(247, 45, 79), rgb(115, 251, 115));
+        width: 70%;
+        position: relative;
+        left: 170px;
+    }
 }
 
 
